@@ -1,0 +1,83 @@
+.app.dark {
+    background-color: #111;
+    color: rgb(255, 255, 255);
+  
+    .chartGrid {
+      stroke: rgba(228, 228, 228, 0.219);
+    }
+  
+    .table {
+      background-color: #111;
+  
+      .tableCell {
+        color: rgb(227, 227, 227);
+      }
+    }
+  
+    .navbar {
+      color: #999;
+      border-color: #333;
+  
+      .search {
+        border-color: gray;
+      }
+    }
+  
+    .sidebar {
+      background-color: #111;
+      border-color: #333;
+  
+      .top {
+        .logo {
+          color: #999;
+        }
+      }
+      hr {
+        border-color: #333;
+      }
+  
+      ul {
+        li {
+          &:hover {
+            background-color: #333;
+          }
+  
+          .icon {
+            color: #999;
+          }
+        }
+      }
+    }
+  
+    .datatable {
+      .datagrid {
+        color: rgb(255, 255, 255);
+        border: none;
+  
+        .viewButton,
+        .deleteButton,
+        .cellWithStatus {
+          color: rgb(251, 54, 54);
+          border: none;
+        }
+        // .css-rtrcn9-MuiTablePagination-root .MuiTablePagination-selectLabel {
+        //   color: #fff;
+        // }
+        // .css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input{
+        //   color: #fff;
+        // }
+        // .css-levciy-MuiTablePagination-displayedRows{
+        //   color: #fff;
+
+        // }
+        .css-rtrcn9-MuiTablePagination-root {
+          background-color: #616060;
+
+        }
+      }
+    }
+  
+    input{
+        background-color: transparent;
+    }
+  }
